@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19-aug-24-NicolasNugroho96</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav>
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+
+        <section class="nav-container">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#myProfile" class="nav-item">My Profile</a>
+            <a href="#message" class="nav-item">Message Me</a>
+        </section>
+    </nav>
+
+    <hr />
+
+    <!-- Content -->
+    <main>
+        <article>
+            <header>
+                <h1>Welcome user, to my Portfolio</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi omnis, molestiae nihil id quisquam
+                    nesciunt animi blanditiis facilis autem tenetur porro atque vero et, qui, illum consequuntur impedit
+                    totam unde!</p>
+
+                <div class="banner-img"></div>
+            </header>
+        </article>
+
+        <hr />
+
+        <section id="myProfile">
+            <header>
+                <h1>My Profile</h1>
+            </header>
+            
+            <section class="profile-container">
+                <div class="profie-item">
+                    <div class="profile-img"></div>
+                    <h2>Web Developer</h2>
+                </div>
+                <div class="profie-item">
+                    <div class="profile-img"></div>
+                    <h2>Community Founder</h2>
+                </div>
+                <div class="profie-item">
+                    <div class="profile-img"></div>
+                    <h2>Entrepreneur</h2>
+                </div>
+            </section>
+        </section>
+
+        <section id="message">
+            <fieldset>
+                <legend>Message Me</legend>
+                <label for="name">Nama</label>
+                <input type="text" class="mt-3"><br>
+                <label for="birth-day">Tanggal Lahir</label>
+                <input type="date"><br>
+                <label for="jenis-kelamin">Jenis Kelamin</label>
+                <input type="checkbox">Laki-Laki
+                <input type="checkbox">Perempuan <br>
+                <label for="message">Pesan</label>
+                <textarea name="message" id="message" cols="40" rows="10"></textarea>
+            </fieldset>
+            
+            <div></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span>
+            <script>document.getElementById("currentYear").textContent = new Date().getFullYear();</script> Made by Nicolas Aditya Nugroho | All Rights Reserved</p>
+    </footer>
+</body>
