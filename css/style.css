@@ -4,11 +4,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #000000;
 }
 
 .nav-item {
     border: 1px solid;
-    color: #000000;
+    color: #ffffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -51,15 +52,6 @@ nav {
     background-position: center;
 }
 
-.profile-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.profile-item {
-    height: 100px;
-}
-
 .profile-photo {
     height: 450px;
     width: 270px;
@@ -68,28 +60,36 @@ nav {
     border-radius: 50%;
 }
 
-.profile-img {
+.profile-item{
+    height: 100px;
+    text-align: -webkit-center;
+}
+
+.profile-img{
     height: 50px;
     background-image: url(https://picsum.photos/200);
     background-size: cover;
     background-position: center;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 50px;
 }
 
-fieldset {
-    overflow: hidden;
+.profile-container{
+    display: flex;
+    justify-content: space-around;
 }
 
-label {
-    float: left;
-    width: 140px;
+form, .output {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-textarea {
-    border-radius: 20px;
-    height: 100px;
+.output {
+    margin-top: 20px;
 }
+
 
 #social-media {
     justify-content: center;
@@ -116,7 +116,11 @@ footer {
     text-align: end;
     font-weight: bold;
     font-family: 'Geneva', sans-serif;
+    background-color: #000000;
+    color: #ffffffff;
 }
+
+footer
 
 #footer-icon-logo {
     height: 20px;
@@ -127,7 +131,7 @@ footer {
 }
 
 footer a {
-    color: #000000;
+    color: #ffffffff;
     font-family: 'Geneva', sans-serif;
     text-decoration: none;
     font-weight: bolder;
