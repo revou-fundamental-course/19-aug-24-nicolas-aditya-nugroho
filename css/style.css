@@ -4,6 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffde3d;
 }
 
 .nav-item {
@@ -14,6 +15,11 @@ nav {
     font-weight: bold;
     padding: 8px;
     border-radius: 10%;
+    font-family: 'Geneva', sans-serif;
+}
+
+.nav-item:hover {
+    color: #ffffffff;
 }
 
 .nav-container {
@@ -21,9 +27,9 @@ nav {
 }
 
 .logo-icon {
-    height: 48px;
-    width: 48px;
-    background-image: url(https://picsum.photos/200);
+    height: 50px;
+    width: 50px;
+    background-image: url(http://mudikanusantara.biz.id/Nicolas%20Aditya%20Nugroho%20Profile/assets/image/Niicolas-Aditya-Nugroho-1.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -55,4 +61,26 @@ nav {
 
 footer {
     text-align: end;
+    font-weight: bold;
+    font-family: 'Geneva', sans-serif;
+    background-color: #ffde3d;
+}
+
+#footer-icon-logo {
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 20px;
+    border-radius: 50%;
+}
+
+footer a {
+    color: #000000;
+    font-family: 'Geneva', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    color: #ffffffff;
 }
