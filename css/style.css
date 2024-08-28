@@ -92,7 +92,7 @@ textarea {
 }
 
 #social-media {
-    border: 1px solid;
+    justify-content: center;
 }
 
 #social-media h2 {
