@@ -36,7 +36,7 @@ nav {
 .button {
     text-decoration: none;
     background-color: #ffde3d;
-
+    border-radius: 25px;
 }
 
 .button:hover {
