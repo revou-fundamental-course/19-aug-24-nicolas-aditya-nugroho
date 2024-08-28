@@ -4,7 +4,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffde3d;
 }
 
 .nav-item {
@@ -19,7 +18,7 @@ nav {
 }
 
 .nav-item:hover {
-    color: #ffffffff;
+    color: #ffde3d;
 }
 
 .nav-container {
@@ -96,7 +95,6 @@ footer {
     text-align: end;
     font-weight: bold;
     font-family: 'Geneva', sans-serif;
-    background-color: #ffde3d;
 }
 
 #footer-icon-logo {
@@ -115,5 +113,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffffffff;
+    color: #ffde3d;
 }
