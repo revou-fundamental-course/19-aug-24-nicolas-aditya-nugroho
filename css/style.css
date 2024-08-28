@@ -34,8 +34,19 @@ nav {
     border-radius: 50%;
 }
 
+.button {
+    text-decoration: none;
+    background-color: #ffde3d;
+
+}
+
+.button:hover {
+    color: red;
+}
+
 .banner-img {
     height: 300px;
+    margin-top: 20px;
     background-image: url(https://picsum.photos/200);
     background-size: cover;
     background-position: center;
@@ -50,6 +61,14 @@ nav {
     height: 100px;
 }
 
+.profile-photo {
+    height: 450px;
+    width: 270px;
+    background-image: url(http://mudikanusantara.biz.id/Nicolas%20Aditya%20Nugroho%20Profile/assets/image/Niicolas-Aditya-Nugroho-2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
 .profile-img {
     height: 50px;
     background-image: url(https://picsum.photos/200);
@@ -57,6 +76,20 @@ nav {
     background-position: center;
     border-radius: 50%;
     width: 50px;
+}
+
+fieldset {
+    overflow: hidden;
+}
+
+label {
+    float: left;
+    width: 140px;
+}
+
+textarea {
+    border-radius: 20px;
+    height: 100px;
 }
 
 footer {
