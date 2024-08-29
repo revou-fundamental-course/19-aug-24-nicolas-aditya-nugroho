@@ -83,54 +83,42 @@
 
         <hr />
 
-        <section class="form-container" id="message">
-            <form class="form" name="message-form" id="message-form">
-                <h2>Fill Out of the Form <i class="fa-solid fa-arrow-down"></i></h2>
-                <table>
-                    <tr>
-                        <td><label for="name">Full Name:</label></td>
-                        <td><input type="text" id="name" name="namalengkap" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="name">Nickname:</label></td>
-                        <td><input type="text" id="name" name="namapanggilan" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="birthDate">Birth Date:</label></td>
-                        <td><input type="date" id="birthDate" name="birthDate" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="sexuality">Sexuality:</label></td>
-                        <td>
-                            <div class="radio-group">
-                                <input type="radio" id="sexuality" name="sexuality" value="male" required>
-                                <label>Male</label>
-
-                                <input type="radio" id="sexuality" name="sexuality" value="female" required>
-                                <label>Female</label>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><label>Message:</label></td>
-                        <td><textarea name="message" id="message-form" cols="50" rows="4" required></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center;">
-                            <button type="submit" class="button"><a href="mailto:knaditya6@gmail.com"></a>Submit</button>
-                        </td>
-                    </tr>
-                </table>
+        <section class="wrapper">
+            <h2>Fill Complete Form <i class="fa-solid fa-arrow-down"></i></h2>
+            <form action="#" method="post" id="messageMeForm">
+                <label for="fullname">Nama Lengkap:</label>
+                <input type="text" id="fullname" name="fullname">
+                <br><br>
+                <label for="nickname">Nama Panggilan:</label>
+                <input type="text" id="nickname" name="nickname">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="whatsapp">Nomor WhatsApp:</label>
+                <input type="tel" id="whatsapp" name="whatsapp">
+                <br><br>
+                <label>Jenis Kelamin:</label>
+                <br><br>
+                <input type="radio" id="male" name="gender" value="laki-laki">
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="gender" value="perempuan">
+                <label for="female">Perempuan</label>        
+                <br><br>
+                <label for="birthdate">Tanggal Lahir:</label>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+                <label></label>
+                <textarea for="messageMeForm" name="messageMeForm" id="messageMeForm" name="messageMeForm" cols="50" rows="4"></textarea>
+                <br><br>
+                <input type="submit" value="Kirim" class="button">
             </form>
+        
 
-            <div class="output" id="outputSection">
-                <p id="currentTime"></p>
-                <p>Full Name: <span id="outputnamalengkap"></span></p>
-                <p>Nickname: <span id="outputnamapanggilan"></span></p>
-                <p>Birth Date: <span id="outputBirthDate"></span></p>
-                <p>Sexuality: <span id="outputSexuality"></span></p>
-                <p>Message: <span id="outputMessage"></span></p>
-            </div>
+            <div id="result">
+                <h3>Data yang Dikirimkan:</h3>
+                <p id="output"></p>
+            </div>        
         </section>
 
         <hr />

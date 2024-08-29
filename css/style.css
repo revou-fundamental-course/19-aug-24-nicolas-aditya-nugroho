@@ -60,12 +60,12 @@ nav {
     border-radius: 50%;
 }
 
-.profile-item{
+.profile-item {
     height: 100px;
     text-align: -webkit-center;
 }
 
-.profile-img{
+.profile-img {
     height: 50px;
     background-image: url(https://picsum.photos/200);
     background-size: cover;
@@ -74,20 +74,26 @@ nav {
     width: 50px;
 }
 
-.profile-container{
+.profile-container {
     display: flex;
     justify-content: space-around;
 }
 
-form, .output {
-    margin: 20px;
+.wrapper {
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #cccccccc;
 }
 
-.output {
-    margin-top: 20px;
+.form-container h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.submittedDataDisplay {
+    padding: 20px;
+    text-align: center;
 }
 
 
@@ -120,9 +126,7 @@ footer {
     color: #ffffffff;
 }
 
-footer
-
-#footer-icon-logo {
+footer #footer-icon-logo {
     height: 20px;
     justify-content: space-between;
     align-items: center;
